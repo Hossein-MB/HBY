@@ -1,11 +1,10 @@
-import MenuComponent from "../src/PAGE/PageLanding/HeaderComponent/MenuComponent"
+import HeaderComponent from "./Components/LandingComponent/HeaderComponent/HeaderComponent";
+
+
 export default function App() {
   return (
-    <div>
-    <h className="text-3xl font-bold ">
-     " این صفحه لندیگ است ." 
-    </h>
-    <MenuComponent/>
+    <div className="w-full bg-black flex justify-evenly ">
+<HeaderComponent/>
     </div>
   )
 }
