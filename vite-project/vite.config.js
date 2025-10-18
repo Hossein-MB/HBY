@@ -5,10 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 
 export default defineConfig({
-<<<<<<< HEAD
+
   plugins: [react(),tailwindcss()],
 })
-=======
-  plugins: [react()],
-})
->>>>>>> origin/1-B/Create-Pages_site
+
