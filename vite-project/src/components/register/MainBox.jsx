@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Register = () => {
+const MainBox = () => {
   return (
     <div></div>
   )
 }
-export default Register
+
+export default MainBox
