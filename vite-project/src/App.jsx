@@ -1,13 +1,9 @@
-import HeaderComponent from "./Components/LandingComponent/HeaderComponent/HeaderComponent";
-
+import { RouterProvider} from "react-router-dom";
+import Router from "./routs/Router";
 export default function App() {
   return (
     <>
-      <h1>testtt</h1>
-
-      <div className="w-full  bg-black flex justify-evenly ">
-        <HeaderComponent />
-      </div>
+    <RouterProvider router={Router}/>
     </>
   );
 }
