@@ -3,7 +3,7 @@ import HeroSectionLeft from './HeroSectionLeft'
 import HerosectionRight from './HerosectionRight'
 const HeroLanding = () => {
   return (
-    <div className='flex items-center justify-center mr-36'> 
+    <div className='flex items-center justify-center  mr-36'> 
   
         <HerosectionRight/>
         <HeroSectionLeft/>

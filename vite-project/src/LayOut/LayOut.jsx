@@ -9,7 +9,6 @@ const LayOut = () => {
   return (
     <div>
     <HeaderComponent/>
-     <HeroLanding/>
     <Outlet/>
     <Footer/>
     </div>

@@ -1,9 +1,13 @@
 import React from 'react'
+import HeroLanding from '../../Components/LandingComponent/HeroLanding/HeroLanding'
+import LandingReport from '../../Components/LandingComponent/landingReport/landingReport'
 
 const Landing = () => {
   return (
     <div>
-      این صفخه لندینگ می باشد
+     <HeroLanding/>
+     <LandingReport/>
+    
     </div>
   )
 }

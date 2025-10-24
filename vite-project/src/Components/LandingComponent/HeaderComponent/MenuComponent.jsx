@@ -3,7 +3,7 @@
 const MenuComponent = () => {
   return (
     <div className='flex text-1x1 w-1247.84px h-40px justify-center  gap-5'>
-      <div>خانه</div>
+      <div className="text-fuchsia-900">خانه</div>
       <div>دوره ها</div>
       <div>اخبار و مقالات</div>
       <div>اساتید</div>
