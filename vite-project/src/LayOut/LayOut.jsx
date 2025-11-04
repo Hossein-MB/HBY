@@ -3,11 +3,13 @@ import { Outlet } from 'react-router-dom'
 import Footer from '../Components/footer/Footer'
 import HeaderComponent from '../Components/LandingComponent/HeaderComponent/HeaderComponent'
 import HeroLanding from '../Components/LandingComponent/HeroLanding/HeroLanding'
+import NavBar from '../Components/LandingComponent/HeaderComponent/NavBar'
 
 
 const LayOut = () => {
   return (
     <div>
+      {/* <NavBar/> */}
     <HeaderComponent/>
     <Outlet/>
     <Footer/>

@@ -9,10 +9,10 @@ const HerosectionRight = () => {
         <span className='text-[#3C8B85] text-5xl font-bold'>دکتر کد</span>
       </h1>
       <h2 className='font-bold'>با ما به دنیای جذاب کدنویسی وارد شوید و مهارت‌های لازم برای 
-         ساختن نرم‌افزارهای نوآورانه را یاد بگیرید.</h2>
+        ساختن نرم‌افزارهای نوآورانه را یاد بگیرید.</h2>
     <div className='mt-10'>
 
-       <InputSearch/>
+      <InputSearch/>
     </div>
     </div>
   </>)
