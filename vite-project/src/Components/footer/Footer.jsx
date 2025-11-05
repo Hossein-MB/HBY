@@ -10,7 +10,7 @@ const Footer = () => {
       <div className=" bg-[#9B0EE1] w-[1265px] h-[235px]"></div>
     </div>
       
-    </div>
+    </div> 
   )
 }
 
