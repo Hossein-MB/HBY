@@ -3,6 +3,7 @@ import HeroLanding from '../../Components/LandingComponent/HeroLanding/HeroLandi
 import LandingReport from '../../Components/LandingComponent/landingReport/landingReport'
 
 import Slider from '../../Components/LandingComponent/Slider/Slider'
+import SliderPro from '../../Components/LandingComponent/ProfessorSlider/Slider'
 
 const Landing = () => {
   return (
@@ -10,6 +11,7 @@ const Landing = () => {
      <HeroLanding/>
      <LandingReport/>
     <Slider/>
+    <SliderPro />
     </div>
   )
 }
