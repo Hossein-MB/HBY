@@ -8,8 +8,8 @@ import SliderPro from '../../Components/LandingComponent/ProfessorSlider/Slider'
 const Landing = () => {
   return (
     <div>
-     <HeroLanding/>
-     <LandingReport/>
+    <HeroLanding/>
+    <LandingReport/>
     <Slider/>
     <SliderPro />
     </div>
