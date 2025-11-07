@@ -3,13 +3,18 @@ import HeroLanding from '../../Components/LandingComponent/HeroLanding/HeroLandi
 import LandingReport from '../../Components/LandingComponent/landingReport/landingReport'
 
 import Slider from '../../Components/LandingComponent/Slider/Slider'
+import Slider2 from '../../Components/LandingComponent/ProfessorSlider/Slider2'
+import Services from '../../Components/LandingComponent/Services/Services'
+
 
 const Landing = () => {
   return (
     <div>
-     <HeroLanding/>
-     <LandingReport/>
+    <HeroLanding/>
+    <LandingReport/>
     <Slider/>
+    <Slider2/>
+    <Services/>
     </div>
   )
 }
