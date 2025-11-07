@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import {Login} from "./screens/login/login"; 
+import React from "react";
+import { Login } from "./screens/login/login";
 
-export default class App extends Component {
-  render() {
-    return (
+export default function App() {
+  return (
+    <div>
       <Login />
-    );
-  }
+    </div>
+  );
 }
