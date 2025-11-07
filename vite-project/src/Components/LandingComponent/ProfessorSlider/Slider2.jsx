@@ -15,7 +15,7 @@ const teachers = [
   { name: "استاد بحر", role: "مدرس اصلی", img: prof4 },
   { name: "استاد بحر", role: "مدرس اصلی", img: prof5 },
 ];
-export default function Slider() {
+export default function Slider2() {
   const slides = teachers.map((t, i) => (
     <CourseCard key={i} name={t.name} role={t.role} img={t.img} />
   ));
