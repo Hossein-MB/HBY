@@ -5,6 +5,7 @@ import LandingReport from '../../Components/LandingComponent/landingReport/landi
 import Slider from '../../Components/LandingComponent/Slider/Slider'
 import Slider2 from '../../Components/LandingComponent/ProfessorSlider/Slider2'
 import Services from '../../Components/LandingComponent/Services/Services'
+import News from '../../Components/LandingComponent/News/News'
 
 
 const Landing = () => {
@@ -15,6 +16,7 @@ const Landing = () => {
     <Slider/>
     <Slider2/>
     <Services/>
+    <News/>
     </div>
   )
 }

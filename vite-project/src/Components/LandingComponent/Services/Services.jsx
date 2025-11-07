@@ -17,7 +17,7 @@ const Services = () => {
                     alt=""
                 />
                 </div>
-                <h1 className="font-bold text-2xl">با برترین استادان جهان آشنا شو</h1>
+                <h1 className="font-bold text-2xl">خدمات ما،راهی به سوی موفقیت شما</h1>
             </div>
             <div className="flex w-[1248] h-[424] ">
                 <div className="w-[475] h-[400]">

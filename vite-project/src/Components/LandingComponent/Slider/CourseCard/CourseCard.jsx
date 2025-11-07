@@ -39,7 +39,7 @@ export default function CourseCard({
       <div
         dir="rtl"
         className="relative z-10 w-full h-full rounded-[28px] overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.25)] 
-                   transform transition-transform duration-300 hover:scale-105 hover:shadow-xl"
+                  transform transition-transform duration-300 hover:scale-105 hover:shadow-xl"
         style={{
           backgroundImage: bgImage ? `url(${bgImage})` : undefined,
           backgroundSize: "cover",
