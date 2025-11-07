@@ -8,7 +8,7 @@ export const Login = () => {
   return (
     <div className="flex min-h-screen bg-[#f4f4f4] font-sans relative" dir="rtl">
       {/* آیکون منو بالا */}
-      <div className="absolute top-6 left-8 text-purple-600 cursor-pointer hover:scale-110 transition">
+      <div className="absolute top-6 left-10 text-purple-600 cursor-pointer hover:scale-110 transition border rounded-full  w-[40px] h-[40px] flex items-center justify-center">
         <FaBars size={26} />
       </div>
 
@@ -63,7 +63,7 @@ export const Login = () => {
                 <FaUser className="absolute right-3 top-4 text-gray-400" />
               </div>
 
-              {/* فیلد رمز عبور */}
+               {/* فیلد رمز عبور  */}
               <div className="relative mb-5">
                 <input
                   type={showPassword ? "text" : "password"}
@@ -105,6 +105,12 @@ export const Login = () => {
 
         </div>
       </div>
+
+        <div className="w-[60px] h-[175] absolute top-[350px] left-[15px]">
+
+          <img src="/Capture2.png" />
+        
+        </div>
     </div>
   );
 };
