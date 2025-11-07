@@ -31,7 +31,7 @@ const Services = () => {
                                 <img src="../../../../public/services/left/image.svg" alt="" />
                             </div>
                             <div className="w-[350px] h-[100px] rounded-[16px] z-0 bg-emerald-500 ">
-                                <h1 className="">مشاوره</h1>
+                                <h1 className="size">مشاوره</h1>
                                 <span>مشاوره حرفه، راهنمایی مطمئن</span>
                             </div>
                         </div>
