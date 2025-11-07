@@ -1,6 +1,6 @@
 // Slider.jsx
-import CourseCard from "../Slider/CourseCard/CourseCard";
-import SwiperComponent from "../Slider/swiper/SwiperComponent";
+import CourseCard from "./CourseCard/CourseCard";
+import SwiperComponent from "./swiper/SwiperComponent";
 
 export default function Slider() {
   const slides = [
@@ -72,7 +72,7 @@ export default function Slider() {
             alt=""
           />
         </div>
-        <h1 className="font-bold text-2xl">با برترین استادان جهان آشنا شو</h1>
+        <h1 className="font-bold text-2xl">همه چیز را در دوره های ما یاد بگیر </h1>
       </div>
       <SwiperComponent slides={slides} />
       <div className=" flex justify-around mt-2 mb-5 h-10">
