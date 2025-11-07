@@ -1,11 +1,11 @@
 import React from 'react'
 
-const PageLanding = () => {
+const index = () => {
   return (
     <div>
-      
+      it is contact
     </div>
   )
 }
 
-export default PageLanding
+export default index
