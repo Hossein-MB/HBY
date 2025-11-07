@@ -1,10 +1,9 @@
-import React, { Component } from "react";
-import {Login} from "./screens/login/login"; 
-
-export default class App extends Component {
-  render() {
-    return (
-      <Login />
-    );
-  }
+import { RouterProvider} from "react-router-dom";
+import Router from "./routs/Router";
+export default function App() {
+  return (
+    <>
+    <RouterProvider router={Router}/>
+    </>
+  );
 }
