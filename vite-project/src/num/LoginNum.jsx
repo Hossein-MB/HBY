@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaUser, FaLock, FaBars } from "react-icons/fa";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 
-export const Login = () => {
+export const NumberLog = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
@@ -49,15 +49,15 @@ export const Login = () => {
               <label className="block text-gray-600 text-base mb-3">
                 ورود با{" "}
                 <span className="text-purple-600 font-medium cursor-pointer">
-                  شماره همراه
+                  ایمیل
                 </span>
               </label>
 
-              {/* فیلد ایمیل */}
+              {/* فیلد شماره تلفن */}
               <div className="relative mb-5">
                 <input
                   type="email"
-                  placeholder="ایمیل"
+                  placeholder="شماره تلفن"
                   className="w-full border border-gray-300 rounded-lg p-4 pr-10 text-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-400 text-base"
                 />
                 <FaUser className="absolute right-3 top-4 text-gray-400" />
@@ -105,12 +105,6 @@ export const Login = () => {
 
         </div>
       </div>
-
-        <div className="w-[80px] h-[200] absolute top-[330px] left-[320px]">
-
-          <img src="/Capture2.png" />
-        
-        </div>
     </div>
   );
 };
