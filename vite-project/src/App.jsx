@@ -1,9 +1,15 @@
-import { RouterProvider} from "react-router-dom";
-import Router from "./routs/Router";
+import HeaderComponent from "./Components/LandingComponent/HeaderComponent/HeaderComponent";
+import { Login } from "./screens/loginpage/Login";
+
 export default function App() {
   return (
     <>
-    <RouterProvider router={Router}/>
+      <h1>testtt</h1>
+
+      <div className="w-full  flex justify-evenly ">
+        <HeaderComponent />
+      </div>
+        <Login/>
     </>
   );
 }
