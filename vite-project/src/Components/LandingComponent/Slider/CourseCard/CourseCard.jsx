@@ -33,10 +33,9 @@ export default function CourseCard({
         }}
       />
 
-      {/* thin white border */}
       <div className="absolute inset-0 m-3 rounded-[34px] bg-white/90 pointer-events-none" />
 
-      {/* card */}
+
       <div
         dir="rtl"
         className="relative z-10 w-full h-full rounded-[28px] overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.25)] 

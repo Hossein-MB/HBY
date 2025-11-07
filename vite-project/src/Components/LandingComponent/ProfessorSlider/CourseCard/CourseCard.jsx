@@ -8,7 +8,7 @@ import React from "react";
  */
 export default function CourseCard({ name = " استاد", role = "مدرس", img = null }) {
   return (
-    <div className=" relative w-[260px] sm:w-[300px] md:w-[340px] h-[340px] sm:h-[380px] md:h-[420px] flex items-center justify-center">
+    <div className="relative w-[260px] sm:w-[300px] md:w-[340px] h-[340px] sm:h-[380px] md:h-[420px] flex items-center justify-center">
 
       <div
         aria-hidden
@@ -26,7 +26,7 @@ export default function CourseCard({ name = " استاد", role = "مدرس", im
 
       <div
         dir="ltr"
-        className="relative z-10 w-full h-full rounded-[18px] overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.12)] flex items-end"
+        className="relative z-10 w-full h-full rounded-[18px] overflow-hidden flex items-end"
         style={{
           backgroundImage: img ? `url(${img})` : undefined,
           backgroundSize: "cover",
@@ -34,7 +34,7 @@ export default function CourseCard({ name = " استاد", role = "مدرس", im
           backgroundColor: "#f3f4f6",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+      
 
 
         <div className="relative z-20 w-full px-4 pb-6">
