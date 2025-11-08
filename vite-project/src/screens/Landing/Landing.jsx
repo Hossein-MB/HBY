@@ -10,7 +10,7 @@ import News from '../../Components/LandingComponent/News/News'
 
 const Landing = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
     <HeroLanding/>
     <LandingReport/>
     <Slider/>

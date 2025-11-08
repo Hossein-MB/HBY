@@ -58,7 +58,7 @@ export default function Slider() {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center my-10">
+      <div className="flex flex-col justify-center items-center my-10  overflow-hidden">
         <div className="flex w-full justify-center">
           <img
             className="transform scale-x-[-1]"

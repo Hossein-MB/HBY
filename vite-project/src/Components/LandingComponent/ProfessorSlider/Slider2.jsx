@@ -21,7 +21,7 @@ export default function Slider2() {
   ));
 
   return (
-    <section className="py-12 bg-gray-50">
+    <div className="py-12 bg-gray-50 overflow-hidden">
       <div className="container mx-auto px-4">
                     <div className="flex flex-col justify-center items-center my-10">
                 <div className="flex w-full justify-center">
@@ -41,6 +41,6 @@ export default function Slider2() {
             </div>
         <SwiperComponent slides={slides} slideWidth={340} />
       </div>
-    </section>
+    </div>
   );
 }

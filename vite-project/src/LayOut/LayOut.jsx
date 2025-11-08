@@ -8,7 +8,7 @@ import NavBar from '../Components/LandingComponent/HeaderComponent/NavBar'
 
 const LayOut = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       {/* <NavBar/> */}
     <HeaderComponent/>
     <Outlet/>
