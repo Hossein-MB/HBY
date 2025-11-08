@@ -103,8 +103,9 @@ export default function NavBar() {
               <BellIcon className="size-5" />
             </button>
 
-            <Menu as="div" className="relative ml-3">
-              <MenuButton className="flex rounded-full focus:outline-none">
+            <Menu as="div" className="relative ml-3 md:hidden">
+
+              <MenuButton className="flex rounded-full focus:outline-none ">
                 <img
                   className="h-8 w-8 rounded-full"
                   src="../../../../public/logo/bahar.jpg"

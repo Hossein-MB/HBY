@@ -2,7 +2,7 @@
 // import "tailwindcss";
 const MenuComponent = () => {
   return (
-    <div className='flex text-1x1 w-1247.84px h-40px justify-center  gap-5'>
+    <div className='md:flex text-1x1 md:w-1247.84px h-40px md:justify-center  gap-4 hidden'>
       <div className="text-fuchsia-900">خانه</div>
       <div>دوره ها</div>
       <div>اخبار و مقالات</div>
