@@ -120,7 +120,7 @@ export default function CardNews({
                     </div>
                 <div className="flex items-center  gap-2">
                   <button className="px-4 py-2 left-5 rounded-full border border-white/30 bg-transparent text-white text-sm font-medium">
-                    بیشتر بخوانید                  </button>
+                    بیشتر بخوانید</button>
                 </div>
                  </div>
             </div>
