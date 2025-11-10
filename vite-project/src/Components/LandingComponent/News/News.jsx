@@ -3,8 +3,8 @@ import CardNews from "./CardNews/CardNews";
 
 const News = () => {
     return (
-        <div className="  w-[1240px] h-[800px] mt-20">
-            <div className="  w-[1240px] h-[528px]">
+        <div className="  w-full h-[800px] mt-20">
+            <div className="  w-full h-[528px]">
                     <div className="flex flex-col justify-center items-center my-10">
                     <div className="flex w-full justify-center">
                     <img
@@ -21,7 +21,7 @@ const News = () => {
                     </div>
                     <h1 className="font-bold text-2xl">خبر های داغ دریچه ای به دنیای تازه ها </h1>
                     </div>
-                <div className="  gap-[40px]   w-[1240px] h-full flex  justify-center">
+                <div className="  gap-[40px]  w-full h-full flex  items-center justify-center">
                     <CardNews/>
                     <CardNews/>
                     <CardNews/>

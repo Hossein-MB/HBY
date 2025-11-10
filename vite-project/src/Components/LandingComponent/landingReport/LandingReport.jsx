@@ -2,7 +2,7 @@ import React from 'react'
 
 const LandingReport = () => {
   return (
-    <div className='w-[985px] h-[74px]  mr-36 gap-[152px] mt-[2px] left[227px]  flex items-center justify-center'>
+    <div className='w-full h-[74px]  mr-36 gap-[152px] mt-[2px] left[227px]  flex items-center justify-center'>
       <div className='w-[134px] h-[72px] gap-[6px]  flex '>
         <img src="../../../../public/report/icon.svg" alt="" />
         <div>
