@@ -1,7 +1,7 @@
 import React from 'react'
 import InputSearch from './InputSearch'
-
 const HerosectionRight = () => {
+
   return (
     <>
     <div className=' left-[-126px] w-[550px] h-75  '> 
@@ -12,7 +12,7 @@ const HerosectionRight = () => {
         ساختن نرم‌افزارهای نوآورانه را یاد بگیرید.</h2>
     <div className='mt-10'>
 
-      <InputSearch/>
+      <InputSearch titel={"هر انچه در اکادمی دنبالش هستید..."} color={"#9B0EE1"}/>
     </div>
     </div>
   </>)
