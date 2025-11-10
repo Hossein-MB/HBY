@@ -3,7 +3,8 @@ import { createBrowserRouter } from "react-router-dom";
 import Landing from "../screens/Landing/Landing";
 import RegisterPage from "../screens/registerPage"
 import LayOut from '../LayOut/LayOut';
-import { Login } from '../screens/login/login';
+import Login from '../screens/login/login';
+// import { Login } from '../screens/login/login';
 
 const Router= createBrowserRouter(
   [
