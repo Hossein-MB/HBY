@@ -1,10 +1,11 @@
 import React from 'react'
 import InputSearch from '../LandingComponent/HeroLanding/HerosectionRight/InputSearch'
+import CardCoursesPage from './CardCoursesPage'
 
 const CoursesPage = () => {
    
   return (
-    <div>
+    <div className='w-full'>
         <div className="flex flex-col  justify-center items-center my-15">
                     <div className="flex w-full justify-center">
                     <img
@@ -24,6 +25,7 @@ const CoursesPage = () => {
         <div>
             <InputSearch titel={"دنبال چه می گردی؟"} color={'#3c8B85'}/>
         </div>
+        <CardCoursesPage/>
     </div>
   )
 }
