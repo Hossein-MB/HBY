@@ -2,7 +2,7 @@
 import React from "react";
 
 9
-export default function CourseCard({
+export default function CoursePageCard({
   title = "عنوان دوره",
   instructor = "استاد",
   students = 0,
@@ -12,7 +12,7 @@ export default function CourseCard({
   bgImage = null,
 }) {
   return (
-    <div className="relative w-[340px] h-[450px] flex items-center justify-center my-20">
+    <div className="relative w-[268px] h-[384px] flex items-center justify-center my-20">
       {/* glow */}
       <div
         aria-hidden

@@ -25,6 +25,7 @@ const CoursesPage = () => {
         <div>
             <InputSearch titel={"دنبال چه می گردی؟"} color={'#3c8B85'}/>
         </div>
+        {/* page course  */}
         <CardCoursesPage/>
     </div>
   )

@@ -12,7 +12,9 @@ export default function Slider() {
       startsAt="۱۴۰۴/۰۲/۱۴"
       price="۲,۵۰۰,۰۰۰ تومان"
       rating={4}
-      bgImage="/slider/Img.svg"
+      bgImage="/slider/Img.svg" 
+      width="[384px]"
+      hight="[420px]"
     />,
     <CourseCard
       key={2}

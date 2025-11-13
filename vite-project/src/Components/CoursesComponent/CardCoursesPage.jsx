@@ -1,6 +1,8 @@
 import React from 'react'
-import InputSearch from '../LandingComponent/HeroLanding/HerosectionRight/InputSearch'
-import CourseCard from '../LandingComponent/Slider/CourseCard/CourseCard'
+// import InputSearch from '../LandingComponent/HeroLanding/HerosectionRight/InputSearch'
+// import CourseCard from '../LandingComponent/Slider/CourseCard/CourseCard'
+import data from "../CoursesComponent/data.json"
+import CoursePageCard from '../LandingComponent/Slider/CourseCard/CoursePageCard'
 
 const CardCoursesPage = () => {
    
@@ -31,17 +33,18 @@ const CardCoursesPage = () => {
             </div>
             {/* دوره ها */}
             <div className='border-2  border-cyan-400 mt-7 w-[916px] h-[1336px]'>
-              <div className='border-2  border-amber-300 mt-7 flex flex-row flex-wrap gap-6 items-center justify-between w-[916px] h-[1228px]'>
-                <CourseCard/>
-                <CourseCard/>
-                <CourseCard/>
-                <CourseCard/>
-                <CourseCard/>
-                <CourseCard/>
-                <CourseCard/>
-                <CourseCard/>
-                <CourseCard/>
-              </div>
+              <div className='border-2  border-amber-300 mt-7 flex flex-row flex-wrap gap-5 px-3 items-center justify-between w-[916] h-[1336]'>
+             
+
+      {data.map((course) => (
+        <div key={course.id}>
+
+          <CoursePageCard />
+          </div>
+        
+      ))}
+          </div>
+    </div>
               <div className='border-2  border-blue-800 mt-20 w-[916px] h-[100px] justify-center flex flex-row '>
                 <div className='border-2 border-emerald-400 w-[272px] h-[40px] flex gap-4'>
                   <div className='bg-[#9B0EE1] w-[40px] h-[40px] rounded-[8px]'></div>
@@ -54,7 +57,7 @@ const CardCoursesPage = () => {
               </div>
             </div>
           </div>
-        </div>
+        
     </>
   )
 }
