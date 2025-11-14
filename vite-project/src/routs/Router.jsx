@@ -5,6 +5,7 @@ import RegisterPage from "../screens/registerPage"
 import LayOut from '../LayOut/LayOut';
 import Login from '../screens/login/login';
 import CoursesPage from '../Components/CoursesComponent/CoursesPage';
+import Loginnum from '../screens/login/loginnum';
 // import { Login } from '../screens/login/login';
 
 const Router= createBrowserRouter(
@@ -31,6 +32,10 @@ const Router= createBrowserRouter(
     {
           path:'/login',
           element:<Login/>
+        },  
+            {
+          path:'/loginnum',
+          element:<Loginnum/>
         },  
   ]
 )
