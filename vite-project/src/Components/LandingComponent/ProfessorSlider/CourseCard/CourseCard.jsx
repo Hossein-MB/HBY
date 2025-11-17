@@ -21,7 +21,7 @@ export default function CourseCard({ name = " استاد", role = "مدرس", im
       />
 
 
-      <div className="absolute inset-0 m-3 rounded-[22px] bg-white/90 pointer-events-none" />
+      <div className="absolute inset-0 m-3 rounded-[22px] pointer-events-none" />
 
 
       <div
@@ -31,7 +31,6 @@ export default function CourseCard({ name = " استاد", role = "مدرس", im
           backgroundImage: img ? `url(${img})` : undefined,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          backgroundColor: "#f3f4f6",
         }}
       >
       
@@ -39,8 +38,8 @@ export default function CourseCard({ name = " استاد", role = "مدرس", im
 
         <div className="relative z-20 w-full px-4 pb-6">
           <div className="text-right">
-            <div className="text-white text-lg sm:text-xl font-extrabold">{name}</div>
-            <div className="text-white/80 text-sm sm:text-sm mt-1">{role}</div>
+            <div className="text-white text-lg  mr-8 sm:text-xl font-extrabold">{name}</div>
+            <div className="text-white/80 text-sm mb-8 mr-8 sm:text-sm mt-1">{role}</div>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 // CourseCard.jsx
 import React from "react";
 
-9
+//کپی از کارت برای سایز کوچکتر در صفحه کورس
 export default function CoursePageCard({
   title = "عنوان دوره",
   instructor = "استاد",
@@ -12,7 +12,7 @@ export default function CoursePageCard({
   bgImage = null,
 }) {
   return (
-    <div className="relative w-[268px] h-[384px] flex items-center justify-center my-20">
+    <div className="relative w-[268px] h-[384px] flex items-center justify-center ">
       {/* glow */}
       <div
         aria-hidden

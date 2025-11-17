@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
     return (
-        <div className="w-full h-[554px] flex flex-col justify-center items-center">
+        <div className="w-full h-[554px] md:flex md:flex-col justify-center items-center hidden">
             <div className="flex flex-col justify-center items-center my-10">
                 <div className="flex w-full justify-center">
                 <img
@@ -10,14 +10,14 @@ const Services = () => {
                     src="../../../../public/span-icon/vect.svg"
                     alt=""
                 />
-                <h4 className="mb-2">خدمات حرفه ای،کیفیت بی نظیر</h4>
+                <h4 className="mb-2 dark:text-amber-50">خدمات حرفه ای،کیفیت بی نظیر</h4>
                 <img
                     className="transform scale-x-[-1]"
                     src="../../../../public/span-icon/vect(1).svg"
                     alt=""
                 />
                 </div>
-                <h1 className="font-bold text-2xl">خدمات ما،راهی به سوی موفقیت شما</h1>
+                <h1 className="font-bold text-2xl  dark:text-amber-50">خدمات ما،راهی به سوی موفقیت شما</h1>
             </div>
             <div className="flex w-full h-[424] justify-center items-center ">
                 <div className="w-[475] h-[400]">

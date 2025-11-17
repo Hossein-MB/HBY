@@ -31,7 +31,7 @@ function SwiperComponent({ slides }) {
     >
       {slides.map((slide, index) => (
         <SwiperSlide key={index}>
-          <div className="transition-transform duration-300">{slide}</div>
+          <div className="transition-transform duration-300 hidden md:block">{slide}</div>
         </SwiperSlide>
       ))}
     </Swiper>

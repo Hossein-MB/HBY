@@ -6,6 +6,7 @@ import Slider from '../../Components/LandingComponent/Slider/Slider'
 import Slider2 from '../../Components/LandingComponent/ProfessorSlider/Slider2'
 import Services from '../../Components/LandingComponent/Services/Services'
 import News from '../../Components/LandingComponent/News/News'
+import SearchButton from '../../Components/common/SearchButton'
 
 
 const Landing = () => {

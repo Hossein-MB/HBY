@@ -87,5 +87,35 @@
     "price" : "رایگان",
     "rating" :0,
     "bgImage" : "https://www.tonynguyen.me/assets/react-course.webp"
+  },
+
+  {
+    "id":"10",
+    "title" : "عنوان دوره",
+    "instructor ":"استاد",
+    "students" : 0,
+    "startsAt" : "تاریخ",
+    "price" : "رایگان",
+    "rating" :0,
+    "bgImage" :"https://sabzlearn.ir/wp-content/uploads/2024/01/REACTjs.webp"
+  },
+  {
+    "id":"11",
+    "title" : "عنوان دوره",
+    "instructor ":"استاد",
+    "students" : 0,
+    "startsAt" : "تاریخ",
+    "price" : "رایگان",
+    "rating" :0,
+    "bgImage" :"https://www.tonynguyen.me/assets/react-course.webp"
+  },{
+    "id":"12",
+    "title" : "عنوان دوره",
+    "instructor ":"استاد",
+    "students" : 0,
+    "startsAt" : "تاریخ",
+    "price" : "رایگان",
+    "rating" :0,
+    "bgImage" : "https://www.tonynguyen.me/assets/react-course.webp"
   }
 ]

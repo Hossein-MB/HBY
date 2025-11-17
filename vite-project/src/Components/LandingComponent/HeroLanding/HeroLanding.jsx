@@ -3,10 +3,11 @@ import HeroSectionLeft from './HeroSectionLeft'
 import HerosectionRight from './HerosectionRight'
 const HeroLanding = () => {
   return (
-    <div className='flex items-center justify-center  mr-36'> 
+    <div className=' flex lg:flex-row items-center justify-center flex-col'> 
   
         <HerosectionRight/>
         <HeroSectionLeft/>
+
     </div>
   )
 }
