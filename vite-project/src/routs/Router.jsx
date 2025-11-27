@@ -4,6 +4,7 @@ import Landing from "../screens/Landing/Landing";
 import RegisterPage from "../screens/registerPage"
 import LayOut from '../LayOut/LayOut';
 import Login from '../screens/login/login';
+import Loginnum from '../screens/login/loginnum';
 import CoursesPage from '../Components/CoursesComponent/CoursesPage';
 // import { Login } from '../screens/login/login';
 
@@ -31,6 +32,10 @@ const Router= createBrowserRouter(
     {
           path:'/login',
           element:<Login/>
+        },  
+          {
+          path:'/loginnum',
+          element:<Loginnum/>
         },  
   ]
 )
